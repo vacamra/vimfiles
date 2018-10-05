@@ -35,3 +35,6 @@ set notimeout ttimeout ttimeoutlen=200
 "indentation - tabs are 4 spaces wide
 set shiftwidth=4
 set tabstop=4
+
+"load plugins
+execute pathogen#infect()
